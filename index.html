@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/images/youtube-344105_960_720.png">
+    <title>GiftTube</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-white shadow fixed-top">
+
+        <div>
+            <a href="#menu-toggle" class="text-secondary border-0 mr-4" id="menu-toggle"><i class="fas fa-bars"></i></a>
+            <img class='thumbNail' src="./assets/images/youtube-344105_960_720.png" alt="">
+            <a class="navbar-brand">GifTube</a>
+        </div>
+
+        <form class="form-inline w-50">
+            <input id="key" class="form-control mr-sm-2 w-75" type="search" placeholder="Search" aria-label="Search">
+            <button id="addSub" class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+
+    </nav>
+
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" class="bg-light">
+
+            <div class="bg-light text-left sidebar-nav mt-5 " class="sideBar">
+                <h4 class="my-2 text-center mt-4">Subsciptions</h4>
+                <div class=" mt-4" id="subList">
+                    <div class="sub" data-Src="Cats">
+                        <img class="thumbbail" src="https://localtvkdvr.files.wordpress.com/2018/12/gettyimages-910314172.jpg?quality=85&strip=all&w=1200"
+                            alt="">
+                        <p>Cats</p>
+                    </div>
+                    <div class="sub" data-Src="dogs">
+                        <img class="thumbbail" src="https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/d/domestic-dog_thumb.jpg"
+                            alt="">
+                        <p>dogs</p>
+                    </div>
+                    <div class="sub" data-Src="South Park">
+                        <img class="thumbbail" src="https://m.media-amazon.com/images/M/MV5BOGE2YWUzMDItNTg2Ny00NTUzLTlmZGYtNWMyNzVjMjQ3MThkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR0,0,182,268_AL_.jpg"
+                            alt="">
+                        <p>South Park</p>
+                    </div>
+                    <div class="sub" data-Src="animals">
+                        <img class="thumbbail" src="https://static.family.ca/rendition/17001/1058/595" alt="">
+                        <p>Animals</p>
+                    </div>
+                    <div class="sub" data-Src="math">
+                        <img class="thumbbail" src="https://cdn.brainpop.com/math/practicalmath/icon.png" alt="">
+                        <p>Math</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid mt-5">
+
+                <div class="row mt-5 align-self-start" id="content">
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+</body>
+
+</html>
